@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>GLBIC</title>
+    <link rel="icon" type="image/gif/png" href="images/logo.jpg">
+    <!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.transitions.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->   
+
+  <!--GOOGle map -->
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <style>
+        #Projects{
+            margin:0;
+            padding:0;
+        }
+        #Projects>div{
+            height: 700px;
+            
+            
+        }
+        #Projects h1{
+            text-align: center;
+            margin:0;
+            padding:0;
+        }
+         #Projects p{
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        #old_jumbotron {
+     height: 45em;
+    background-size: cover;
+    background-image:url(./images/perry-grone-732606-unsplash.jpg);
+    
+}
+
+       #oyoy{
+        background-image: url(./images/digital_world_184571.jpg);
+        background-size: cover;
+       }
+    </style>
+    <style>
+  .multi-item-carousel{
+  .carousel-inner{
+    > .item{
+      transition: 500ms ease-in-out left;
+    }
+    .active{
+      &.left{
+        left:-33%;
+      }
+      &.right{
+        left:33%;
+      }
+    }
+    .next{
+      left: 33%;
+    }
+    .prev{
+      left: -33%;
+    }
+    @media all and (transform-3d), (-webkit-transform-3d) {
+      > .item{
+        // use your favourite prefixer here
+        transition: 500ms ease-in-out left;
+        transition: 500ms ease-in-out all;
+        backface-visibility: visible;
+        transform: none!important;
+      }
+    }
+  }
+  .carouse-control{
+    &.left, &.right{
+      background-image: none;
+    }
+  }
+}
+
+// non-related styling:
+body{
+  background: #333;
+  color: #ddd;
+}
+
+</style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="images/parallax.js"></script>
+</head><!--/head-->
+
+<body id="home" class="homepage">
+
+    <header id="header">
+        <nav id="main-menu" class="navbar navbar-default navbar-fixed-top top-nav-collapse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html" style="padding:0;margin-color:#fff; "><img src="images/logo.jpg" alt="logo" style="width:100px;height:100px;border:transparent;"></a>
+                </div>
+                
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="scroll active"><a href="#home">Home </a></li>
+                        <li class="scroll"><a href="#services"></a></li>
+                        <li class="scroll"><a href="#portfolio"></a></li>
+                        <li class="scroll"><a href="#meet-team"></a></li>
+                        <li class="scroll"><a href="#pricing">Projects</a></li>
+                        <li class="scroll"><a href="./e_cell.html">  E-Cell</a></li>
+                        <li class="scroll"><a href="#testimonial"> Login </a></li>
+                       <li class="scroll"><a href="#get-in-touch">SignUp</a></li>                        
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->
+    </header><!--/header-->
+
+    <section id="main-slider">
+        <div class="owl-carousel">
+            <div class="item" style="background-image: url(images/bg1.jpg);">
+                <div class="slider-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 text-center">
+                                <div class="carousel-content" >
+                                    <h2 style="font-family: 'Archivo Black', sans-serif;"><b>GL BAJAJ INNOVATION CENTER</b></h2>
+                                    <p style="font-family: 'Archivo Black', sans-serif;">"Making Inteligence for tommorow"</p>
+                                    <a class="btn btn-primary btn-lg" href="#">Find Out More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--/.item-->
+             <div class="item" style="background-image: url(images/bg2.jpg);">
+                <div class="slider-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 text-center">
+                                <div class="carousel-content">
+                                    <h2 style="font-family: 'Archivo Black', sans-serif;">GL BAJAJ INNOVATION CENTER</h2>
+                                    <p style="font-family: 'Archivo Black', sans-serif;">"Making Inteligence for tommorow"</p>
+                                    <a class="btn btn-primary btn-lg" href="#">Find Out More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--/.item-->
+        </div><!--/.owl-carousel-->
+    </section><!--/#main-slider-->
+
+    
+
+  <section id="services" >
+        <div class="container">
+
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Services</h2>
+                <p class="text-center wow fadeInDown"></p>
+            </div>
+
+            <div class="row">
+                <div class="features">
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <img src="images/icon1.png" alt="img">
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Responsive Design</h4>
+                                <p>is a team of web designers specializing in award winning responsive website design services. </p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <img src="images/icon2.png" alt="img">
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">UI/UX Design</h4>
+                                <p>offers best UI/UX Design Services for Designing Mobile & Web Applications. Rich Media Design; Branding & Corporate Identity Design; Mobile App Design; Responsive Website Design.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <img src="images/icon3.png" alt="img">
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">IOT services</h4>
+                                <p>As a robust solution for augmenting the automation across all the versatile domains, The Internet of things is an incredible revelation for executing the activities right away without any effort</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                               <img src="images/icon4.png" alt="img">
+                            </div>
+                            <div class="media-body">
+                               <h4 class="media-heading">Cloud Services</h4>
+                                <p>Our team also handles various cloud based projects. </p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                               <img src="images/icon5.png" alt="img">
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">iOS Development</h4>
+                                <p>The decision that starts with choosing between Objective C or Swift for iOS often moves to choosing between many more technologies.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="500ms">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <img src="images/icon6.png" alt="img">
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Andriod Development</h4>
+                                <p>Being an experienced Android Application Development Company, our Android development team gives a guarantee to our clients for an excellent Android app development service that maximizes the efficiency of their businesses. </p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                </div>
+            </div><!--/.row-->    
+        </div><!--/.container-->
+    </section><!--/#services-->    
+    
+    
+        <section id="portfolio">
+        <div class="container-fluid" style="padding-top:0;margin-top: 0;">
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">OUR Latest Work</h2><br>
+                <div class="section-title text-center wow fadeInDown"><p class="text-center wow fadeInDown"><div class="btn btn-warning  " style="background-color:#ff641b;"><h4>Click Here</h4></div></p></div>
+                
+
+            <div class="container-fluid"  >
+                <div class="row">
+                    
+                    <div class="col-sm-12">
+                        <div class="thumbnail">
+                            <img src="images/collage.png">
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+            
+        </div><!--/.container-->
+    </section><!--/#portfolio-->
+    
+    <section id="meet-team">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Meet The Team</h2>
+                <p class="text-center wow fadeInDown">If a flashmob could be manifested as a physical space, it would be our office.<br> We are creative, self-organizing, tech-worshipping,<br> mutually-respectful, data-obsessed people.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                   <div class="thumbnail" >
+                    <img src="images/B612_20180920_140707.jpg" style="height:250px;width:100%;">
+                    <h3>Anshul Chopra</h3>
+                    <h4>Embedded IOT Expert</h4>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                   <div class="thumbnail" style="">
+                    <img src="images/IMG_20180519_111956.jpg" style="height:250px;width:100%;">
+                    <h3>Amiya Prakash</h3>
+                    <h4>Technical Consultant</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                   <div class="thumbnail" style="">
+                    <img src="images/IMG_20180921_173135.jpg" style="height:250px;width:100%;">
+                    <h3>Puneet Kumar Mishra</h3>
+                    <h4>Technical Consultant</h4>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                   <div class="thumbnail" style="">
+                    <img src="images/IMG_20180827_105617.jpg" style="height:250px;width:100%;">
+                    <h3>Rinku Sharma</h3>
+                    <h4>IOT Image Processing</h4>
+                    </div>
+                </div>
+
+                
+            </div>
+            <div class="row" style="margin-top:5px">
+    
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                   <div class="thumbnail" style="">
+                    <img src="images/IMG_20180512_133918.jpg" style="height:250px;width:100%;">
+                    <h3>Shashank Tripathi</h3>
+                    <h4>Software Developer</h4>
+                    </div>
+                </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                   <div class="thumbnail" style="">
+                    <img src="images/IMG_20180827_105617.jpg" style="height:250px;width:100%;">
+                    <h3>Pankaj Pathak</h3>
+                    <h4>Head</h4>
+                    </div>
+                </div>
+
+
+                </div>
+                
+            
+        </div>
+    </section><!--/#meet-team-->
+    
+    <section id="Projects">
+        <div class="parallax-window" data-parallax="scroll" data-image-src="images/pexels-photo-316465.jpg">
+            
+            <h1 style="padding-bottom:20px;font-family: 'Archivo Black', sans-serif;" >We Transform Your Vision into Creative Results</h1>
+           
+            <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="thumbnail">
+                        <img src="images/pulkit.png">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                
+            <p style="padding-bottom:10px;margin-bottom: 0.5em; "><b>Technical assistance to work on their innovative ideas leading to enterpreneurship.</b></p>
+            <p style="padding-bottom:10px;margin-bottom: 0.5em; "><b>Live projects from industry can be taken by the students with technical skills as needed.</b></p>
+            <p style="padding-bottom:10px;margin-bottom:0.5em; "><b>Projects for hands-on practice and opportunity for internshipleading to enhanced job opportunity.</b></p>
+            <p style="padding-bottom:10px;padding-bottom:10px;  "><b>General equipment ,components ,previous projects ,made available for knowlwdge transfer.</b></p>
+                </div> 
+            </div>
+
+               </div>
+           </div>
+               
+          
+        <div  class="parallax-window" data-parallax="scroll" data-image-src="images/IMG_20180512_133105.jpg" style="margin-top:10px; "></div>
+        <div class="container-fluid" style="background-color: #DCD0C0">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="section-header">
+                    <h1 style="font-family: 'Archivo Black', sans-serif;padding-top:20px; " class="class="section-title text-center wow fadeInDown"" >STARTUPS</h1>
+                </div>
+                    <p style="line-height:5em;"><h3 style="text-align: center;margin-bottom:5em;"><b>GLogika Business Solutions Pvt.Ltd.</b></h3></p>
+                    <p style="line-height:5em;"><h3 style="text-align: center;margin-bottom:5em;"><b>Vitti Research Foundation</b></h3></p>
+                    <p style="line-height:5em;"><h3 style="text-align: center;margin-bottom:5em;"><b>Nanotrics Innovations Pvt.Ltd.</b></h3></p>
+                </div>
+                <div class="col-sm-6">
+                    <div class="thumbnail">
+                        <img src="images/pulkit2.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div  class="parallax-window" data-parallax="scroll" data-image-src="images/IMG_20180920_143329.jpg"></div>
+           
+        
+    </section><!--/#projects-->
+
+
+    <div class="container">
+  <div class="section-header" style="padding-top:5em; ">
+                <h2 class="section-title text-center wow fadeInDown">OUR AFFILIATION</h2><br>
+                
+                
+  <div class="row">
+    <div class="col-md-12">
+      <div class="carousel slide multi-item-carousel" id="theCarousel">
+        <div class="carousel-inner">
+          <div class="item active">
+            <div class="col-xs-4"><a href="#1"><img src="images/testimonail_1.png" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-xs-4"><a href="#1"><img src="images/testimonail_2.jpg" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-xs-4"><a href="#1"><img src="images/testimonail_3.jpg" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-xs-4"><a href="#1"><img src="images/testimonail_4.jpg" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-xs-4"><a href="#1"><img src="images/testimonail_5.jpg" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-xs-4"><a href="#1"><img src="images/testimonail_6.jpg" class="img-responsive"></a></div>
+          </div>
+          <!-- add  more items here -->
+          <!-- Example item start:  -->
+          
+          <div class="item">
+            <div class="col-xs-4"><a href="#1"><img src="images/testimonial_7.png" class="img-responsive"></a></div>
+          </div>
+          
+          <!--  Example item end -->
+        </div>
+        <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+        <a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+    
+    
+    
+    <section id="blog" >
+        <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">E-CELL</h2>
+                <div class="section-title text-center wow fadeInDown"><p class="text-center wow fadeInDown"><div class="btn btn-warning  " style="background-color:#ff641b;"><a href="./e_cell.html"><h4>Click Here</h4></a></div></p></div>
+            </div>
+        <header class="jumbotron jumbotron-fluid" id="old_jumbotron">
+<div class="container" id="roo">
+<div id="foo">
+<h1 style="color:#FFD300;">E-CELL</h1>
+<div class="container">
+    <p style="color:#FFD300;">Our mission is to bring the innovative ideas out of the young minds of our college and help them with it. We promote creative thinking among the future entrepreneurs</p>
+</div>
+
+</header>
+    </section> 
+    
+    
+    
+    
+    
+    <!--/#blog-->
+    
+    
+    
+
+   
+    
+
+    <section id="get-in-touch">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">CONTACT US</h2>
+                <p class="text-center wow fadeInDown">Working hours :- Monday - Saturday(9:00-18:30 Hrs) </p>
+                <p class="text-center wow fadeInDown"><strong>Phone until 17:30 Hrs</strong></p>
+            </div>
+            
+            <div class="row">
+            <div class="col-sm-6">
+            <div class="address">
+            <h4>Address</h4>
+            <p> Plot No.2, Knowledge Park III, Greater Noida, Uttar Pradesh 201306</p>
+            </div>
+            
+            <div class="address">
+            <h4>Phone </h4>
+            <p>+917531000583</p>
+            </div>
+            
+            <div class="address">
+            <h4>Email</h4>
+            <p><a href="#">info@glbic.com </a></p>
+            </div>
+            
+            <div class="address">
+            <h4>Follow Us</h4>
+            <p><a href="#"><i class="fa fa-facebook"></i></a>  &nbsp; <a href="#"><i class="fa fa-twitter"></i></a> &nbsp; <a href="#"><i class="fa fa-google-plus"></i></a></p>
+            </div>
+            </div>
+            
+            <div class="col-sm-6">
+            
+            <form action="#" method="post" name="contact-form" id="main-contact-form">
+                                <div class="form-group">
+                                    <input type="text" required placeholder="Name" class="form-control" name="name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" required placeholder="Email" class="form-control" name="email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" required placeholder="Subject" class="form-control" name="subject">
+                                </div>
+                                <div class="form-group">
+                                    <textarea required placeholder="Message" rows="8" class="form-control" name="message"></textarea>
+                                </div>
+                                <button class="btn btn-primary" type="submit">SUBMIT</button>
+                            </form>
+            </div>
+            
+            
+            </div>
+            
+            
+        </div>
+    </section><!--/#get-in-touch-->
+<!--
+<div style="width: 100%;margin-bottom=0;"><iframe width="100%" height="400" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;coord=28.473159,77.488263&amp;q=%20Plot%20No.2%2C%20Knowledge%20Park%20III%2C%20Greater%20Noida%2C%20Uttar%20Pradesh%20201306+(GLBIC)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/create-google-map/">Embed Google Map</a></iframe></div><br />
+
+-->
+<div class="container-fluid" style="padding-left:0; " id="oyoy">
+    <div class="row">
+        
+<div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=G.L.Bajaj%20Institute%20of%20Technology%20and%20management&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><style>.mapouter{height:500px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;}</style></div>
+
+
+
+</div>
+</div>
+
+   <div style="margin-top:0px">
+    <footer id="footer" style="margin-top:0;padding-top:20px">
+        <div class="container text-center">
+          All rights reserved © 2018 | <a href="http://www.pfind.com/goodies/bizexpress/">GLBIC Official Site<br></a> Design & Develop By <a href="#">Pulkit & Jignesh</a>
+        </div>
+    </footer><!--/#footer-->
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/mousescroll.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.inview.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    
+<script>
+
+    $(document).ready(function($) {
+      $("#owl-example").owlCarousel();
+    });
+
+    $("body").data("page", "frontpage");
+
+$("#owl-example").owlCarousel({ 
+        items:3,   
+/*        itemsDesktop : [1199,3],
+        itemsDesktopSmall : [980,9],
+        itemsTablet: [768,5],
+        itemsTabletSmall: false,
+        itemsMobile : [479,4]*/
+})
+
+    </script>
+    <script>
+  // Instantiate the Bootstrap carousel
+$('.multi-item-carousel').carousel({
+  interval: false
+});
+
+// for every slide in carousel, copy the next slide's item in the slide.
+// Do the same for the next, next item.
+$('.multi-item-carousel .item').each(function(){
+  var next = $(this).next();
+  if (!next.length) {
+    next = $(this).siblings(':first');
+  }
+  next.children(':first-child').clone().appendTo($(this));
+  
+  if (next.next().length>0) {
+    next.next().children(':first-child').clone().appendTo($(this));
+  } else {
+    $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+  }
+});
+  </script>
+</body>
+</html>
